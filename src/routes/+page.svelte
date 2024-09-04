@@ -15,13 +15,17 @@
         {
             src: HomeScreenshot,
             alt: 'Screenshot of the homepage of Cleftly'
-        },
-        {
-            src: DiscordScreenshot,
-            alt: 'Screenshot showcasing the Discord Rich Presence integration of Cleftly'
         }
+        // {
+        //     src: DiscordScreenshot,
+        //     alt: 'Screenshot showcasing the Discord Rich Presence integration of Cleftly'
+        // }
     ];
 </script>
+
+<svelte:head>
+    <title>Cleftly</title>
+</svelte:head>
 
 <div
     class="flex max-w-[100vw] flex-col items-center justify-start xl:flex-row xl:items-start xl:justify-between"
@@ -47,7 +51,7 @@
                     class="inline-flex w-full flex-col items-stretch justify-center gap-2 px-4 md:flex-row xl:justify-start xl:px-0"
                 >
                     <a
-                        href="https://github.com/cleftly/cleftly/releases"
+                        href="/download"
                         class="btn text-lg bg-red-600 hover:bg-red-800"
                         ><ArrowDownToLine /> Download</a
                     >

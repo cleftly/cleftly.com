@@ -42,7 +42,7 @@
 </script>
 
 <!-- Grid of features-->
-<div class=" mx-auto max-w-6xl p-8">
+<div class=" mx-auto max-w-6xl px-8 py-16">
     <div
         class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 text-center justify-center"
     >

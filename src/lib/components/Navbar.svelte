@@ -5,6 +5,10 @@
             href: '/'
         },
         {
+            name: 'Download',
+            href: '/download'
+        },
+        {
             name: 'Docs',
             href: 'https://docs.cleftly.com'
         }
