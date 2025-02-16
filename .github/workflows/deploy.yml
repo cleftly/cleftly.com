@@ -1,8 +1,6 @@
-# Workflow to build and deploy a SvelteKit website to GitHub Pages
 name: Deploy
 
 on:
-    # Runs on pushes targeting the default branch
     push:
         branches: ['main']
 
@@ -26,17 +24,17 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: Install pnpm
-              uses: pnpm/action-setup@v2
+              uses: pnpm/action-setup@v3
               with:
-                  version: 8
+                  version: 8.x
 
             - name: Install Node.js
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
-                  node-version: 18
+                  node-version: 20
                   cache: pnpm
 
             - name: Install dependencies
