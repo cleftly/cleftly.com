@@ -12,13 +12,13 @@
             icon: ListMusic,
             title: 'Real-time lyrics',
             description:
-                'View the lyrics of your favorite songs in real-time, fetched automatically'
+                'View the lyrics of your favorite songs in real-time, fetched automatically.'
         },
         {
             icon: Rss,
             title: 'Share your music',
             description:
-                "Let others know what you're listening to with Discord Rich Presence integration, Last.FM integration, and more"
+                "Let others know what you're listening to with built-in integrations for Discord, Last.FM, and more"
         },
         {
             icon: Puzzle,

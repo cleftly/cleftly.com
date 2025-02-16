@@ -30,7 +30,7 @@
 <div
     class="flex max-w-[100vw] flex-col items-center justify-start xl:flex-row xl:items-start xl:justify-between"
 >
-    <div class="shrink lg:w-1/2">
+    <div class="shrink xl:w-1/2">
         <div
             class="flex min-h-[calc(100vh-4rem)] items-center justify-center px-2 py-10 text-center xl:justify-start xl:pe-0 xl:ps-10 xl:text-start"
         >
@@ -53,19 +53,23 @@
                     <a
                         href="/download"
                         class="btn text-lg bg-red-600 hover:bg-red-800"
-                        ><ArrowDownToLine /> Download</a
                     >
+                        <ArrowDownToLine />
+                        Download
+                    </a>
                     <a
                         href="https://github.com/cleftly/cleftly"
                         class="btn text-lg btn-ghost !bg-transparent hover:underline"
-                        ><Github /> Source Code</a
                     >
+                        <Github />
+                        Source Code
+                    </a>
                 </div>
             </div>
         </div>
     </div>
     <div
-        class="flex flex-col w-1/2 md:pb-16 xl:pt-16 px-4 md:pl-8 md:pr-4 my-auto"
+        class="flex flex-col px-4 md:px-16 xl:w-1/2 xl:pb-16 xl:pt-16 xl:pl-8 xl:pr-4 my-auto"
     >
         <div class="max-h-[70vh]">
             {#if screenshotTab === 0}

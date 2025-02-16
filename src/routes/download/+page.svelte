@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    import WindowsIcon from '~icon1s/fa/windows';
+    import WindowsIcon from '~icons/fa/windows';
     import AppleIcon from '~icons/fa/apple';
     import LinuxIcon from '~icons/fa/linux';
     import { minimatch } from 'minimatch';
@@ -208,7 +208,7 @@
             href="https://github.com/cleftly/cleftly/releases"
             class="mt-2 link text-gray-500"
         >
-            View other releases
+            View all releases
         </a>
     </div>
 </div>
